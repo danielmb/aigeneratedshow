@@ -1,0 +1,59 @@
+[
+  {
+    "text": "Hey guys, check out this new joke I heard!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Hit us with it, Jake!",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Why did the tomato turn red?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "I don't know, why?",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Because it saw the salad dressing!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Good one, Jake!",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Thanks, but I got a million of them.",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Oh great, we're in trouble now!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Hey Jake, what do you call an alligator in a vest?",
+    "speaker": "Mike"
+  },
+  {
+    "text": "I don't know, what do you call it?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "An investigator!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Okay, that one was pretty good Mike.",
+    "speaker": "Rachel"
+  }
+]

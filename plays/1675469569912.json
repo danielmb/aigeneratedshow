@@ -1,0 +1,36 @@
+[
+  {
+    "text": "Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Not much Jake, just hanging out.",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "I got a joke for you all. Why did the tomato turn red?",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Why?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Because it saw the salad dressing!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Good one Mike!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Thanks, I try my best.",
+    "speaker": "Mike"
+  },
+  {
+    "action": "APPLAUSE"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Jake: Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Rachel: Jake, you're always so cheerful!",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Mike: Yeah, but today he's extra cheerful because he just won the lottery!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "Jake: Whoa whoa, slow down guys, I actually lost my ticket!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD BOO"
+  },
+  {
+    "text": "Mike: Don't worry Jake, I got your back. I'll help you find it!",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Rachel: Yeah, but first let's grab a drink to celebrate Jake's misfortune!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "APPLAUSE"
+  },
+  {
+    "text": "Jake: Thanks guys, you're the best!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Mike: Anytime Jake, anytime!",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Rachel: Now let's go find that ticket!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD WHISTLE"
+  }
+]

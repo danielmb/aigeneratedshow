@@ -1,0 +1,55 @@
+[
+  {
+    "text": "Hey guys, watch this!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "I just learned how to do a backflip!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "That's not funny Jake, you're going to hurt yourself",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD BOO"
+  },
+  {
+    "text": "Hey, I've got this. Watch me!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "You call that a backflip? That was more like a belly flop",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD WHISTLE"
+  },
+  {
+    "text": "I guess I need to stick to telling jokes",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Yeah, stick to what you're good at",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Hey, who's up for some pizza?",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD WHOO"
+  }
+]

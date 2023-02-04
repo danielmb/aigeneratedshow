@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Hey guys, you won't believe what happened to me yesterday!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD LAUGH"
+  },
+  {
+    "text": "What happened?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "I was at the store and I saw the most ridiculous outfit. I just had to try it on!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "And of course you took a picture!",
+    "speaker": "Mike"
+  },
+  {
+    "text": "You know me too well, my friend!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "APPLAUSE"
+  }
+]

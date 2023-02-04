@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Hey guys, watch this!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "What are you doing Jake?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "I'm about to make you laugh!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "I have a feeling it's going to be a disaster",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Why do chicken coops only have two doors?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Why?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Because if they had four, it would be a chicken sedan!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "That was terrible, Jake.",
+    "speaker": "Mike"
+  },
+  {
+    "text": "Thanks for trying though!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "APPLAUSE"
+  }
+]

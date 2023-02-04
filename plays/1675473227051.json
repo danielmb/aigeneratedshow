@@ -1,0 +1,63 @@
+[
+  {
+    "text": "Hey, what's up guys?",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "I heard Rachel's got a new date tonight, let's hope he's not as boring as her last one.",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Excuse me?! I'll have you know, my last date was a Nobel Prize winner!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "APPLAUSE"
+  },
+  {
+    "text": "Oh yeah? What did he win the Nobel Prize for, being boring?",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Ha ha, very funny Mike. But seriously, he won the Nobel Prize for physics.",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD WHOO"
+  },
+  {
+    "text": "Physics? More like snooze-ics!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Okay, okay, enough about my love life. What are we gonna do tonight?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "I was thinking we could hit up that new comedy club down the street.",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Ooh, sounds good to me!",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Yeah, I could use a good laugh after all these boring date stories.",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  }
+]

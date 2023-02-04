@@ -1,0 +1,19 @@
+```
+[
+  {
+    "text": "Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Not much, just hanging with my favorite people.",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Speak for yourself, I've got a hot date tonight!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  }
+]
+```

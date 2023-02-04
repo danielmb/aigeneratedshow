@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Not much, just trying to survive another day of work.",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Work? You call that work? I call it a vacation!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "So what's the plan for tonight?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "I heard there's a new club opening up. Want to check it out?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Sounds like a plan to me! Let's do it!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "APPLAUSE"
+  }
+]

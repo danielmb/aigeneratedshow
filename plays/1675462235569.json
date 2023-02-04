@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "You seem to be in a good mood, Jake.",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Of course I am, I'm always in a good mood!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "What's so funny, Mike?",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "I was just thinking about the time we went to that karaoke bar and Jake tried to sing.",
+    "speaker": "Mike"
+  },
+  {
+    "action": "APPLAUSE"
+  },
+  {
+    "text": "Hey, I wasn't that bad!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "CROWD BOO"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "text": "Hey, what's up guys? I'm Jake!",
+    "speaker": "Jake"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "So, I was at this party the other night and...",
+    "speaker": "Jake"
+  },
+  {
+    "action": "APPLAUSE"
+  },
+  {
+    "text": "Hold on, hold on. Let me finish my story. So, I was at this party the other night and I saw this girl...Rachel!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Hey! That's me!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "And let me tell you, she has got some sass!",
+    "speaker": "Jake"
+  },
+  {
+    "text": "That's right, I do!",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "And then there's Mike. The big guy with the big personality.",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Hey guys! What's up?",
+    "speaker": "Mike"
+  },
+  {
+    "action": "CROWD CHEER"
+  },
+  {
+    "text": "Always a funny story to tell.",
+    "speaker": "Jake"
+  },
+  {
+    "text": "You know it! And let me tell you, I've got a good one today!",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  }
+]

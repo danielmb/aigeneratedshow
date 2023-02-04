@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Hey guys, what's up?",
+    "speaker": "Jake"
+  },
+  {
+    "text": "Nothing much, just hanging with my friends.",
+    "speaker": "Rachel"
+  },
+  {
+    "text": "Speaking of friends, did I tell you guys about the time I tried to bungee jump off a bridge with a rubber band?",
+    "speaker": "Mike"
+  },
+  {
+    "action": "LAUGHTRACK"
+  },
+  {
+    "text": "Come on Mike, that's not even remotely funny.",
+    "speaker": "Rachel"
+  },
+  {
+    "action": "CROWD BOO"
+  },
+  {
+    "text": "What can I say, I like to keep things interesting.",
+    "speaker": "Mike"
+  },
+  {
+    "action": "APPLAUSE"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "lib": ["DOM", "ESNext"],
+    "allowJs": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "strict": false,
+    "target": "esnext",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "layout/*": ["layout/*"],
+      "system/*": ["system/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
