@@ -2,7 +2,6 @@ import { ChatGPTAPI } from 'chatgpt';
 import * as dotenv from 'dotenv';
 import { Play } from '../../tts';
 import { Character } from './types';
-import * as fs from 'fs/promises';
 dotenv.config();
 if (!process.env.OPENAI_API_KEY)
   throw new Error('OPENAI_API_KEY is not defined');
