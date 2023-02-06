@@ -1,20 +1,6 @@
-import { Character } from 'lib/plays/types';
+import { Character, Play } from 'lib/plays/types';
 import speak, { playSound } from './lib/speech';
-export interface Action {
-  action:
-    | 'LAUGHTRACK'
-    | 'APPLAUSE'
-    | 'CROWD CHEER'
-    | 'CROWD BOO'
-    | 'CROWD WHISTLE'
-    | 'CROWD WHOO';
-}
-export interface Speech {
-  text: string;
-  speaker: string;
-}
-export type PlayScene = Action | Speech;
-export type Play = PlayScene[];
+
 let debug = false;
 export const setDebug = (value: boolean) => {
   debug = value;
