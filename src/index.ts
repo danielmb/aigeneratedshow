@@ -13,7 +13,7 @@ setDebug(true);
   for (let play of plays) {
     await fs.writeFile(
       `plays/${Date.now()}.json`,
-      JSON.stringify(play.play, null, 2),
+      JSON.stringify(play, null, 2),
     );
     await actPlay(play.play, play.characters);
   }
