@@ -1,14 +1,16 @@
-import { ChatGPTAPI } from 'chatgpt';
+import { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from 'chatgpt';
 import * as dotenv from 'dotenv';
 import { isValidJSON } from 'lib/util/utils';
 import { Character, Scene } from './types';
 dotenv.config();
-if (!process.env.OPENAI_API_KEY)
-  throw new Error('OPENAI_API_KEY is not defined');
-const chatgpt = new ChatGPTAPI({
-  apiKey: process.env.OPENAI_API_KEY,
+if (!process.env.OPENAI_ACCESS_TOKEN)
+  throw new Error('OPENAI_ACCESS_TOKEN is not defined');
+if (!process.env.OPENAI_REVERSE_PROXY)
+  throw new Error('OPENAI_REVERSE_PROXY is not defined');
+const chatgpt = new ChatGPTUnofficialProxyAPI({
+  accessToken: process.env.OPENAI_ACCESS_TOKEN,
+  apiReverseProxyUrl: process.env.OPENAI_REVERSE_PROXY,
 });
-
 const characters: Character[] = [
   {
     name: 'Jake',

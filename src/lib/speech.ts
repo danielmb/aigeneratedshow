@@ -3,6 +3,7 @@ import { spawn } from 'node:child_process';
 import tts from '@google-cloud/text-to-speech';
 import { google } from '@google-cloud/text-to-speech/build/protos/protos';
 import * as fs from 'node:fs/promises';
+import { playSound } from './util/playSound';
 // const speak = async (text: string, speechvoice: number): Promise<void> => {
 //   let voice: string[] = ['Microsoft David Desktop', 'Microsoft Zira Desktop'];
 
@@ -76,17 +77,6 @@ const speak = async (text: string, speechvoice: GoogleVoice): Promise<void> => {
   if (!response.audioContent) throw new Error('No audio content');
   await fs.writeFile(soundPath, response.audioContent, 'binary');
   await playSound(soundPath);
-};
-export const playSound = async (soundPath: string): Promise<void> => {
-  return new Promise((resolve, reject) => {
-    const sound = spawn('ffplay', ['-nodisp', '-autoexit', soundPath]);
-    sound.on('close', () => {
-      resolve();
-    });
-    sound.on('error', (err) => {
-      reject(err);
-    });
-  });
 };
 
 export default speak;

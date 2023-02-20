@@ -16,8 +16,9 @@
   "dependencies": {
     "@google-cloud/text-to-speech": "^4.2.0",
     "@types/node": "^18.11.18",
+    "axios": "^1.3.3",
     "bluebird": "^3.7.2",
-    "chatgpt": "^4.1.1",
+    "chatgpt": "^4.7.1",
     "dotenv": "^16.0.3",
     "say": "^0.16.0",
     "talkify-tts": "^3.9.3",

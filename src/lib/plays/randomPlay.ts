@@ -1,22 +1,24 @@
-import { ChatGPTAPI } from 'chatgpt';
+import { ChatGPTAPI, ChatGPTUnofficialProxyAPI } from 'chatgpt';
 import * as dotenv from 'dotenv';
 import generateCharacters from 'lib/createCharacters';
 import generateTitle from 'lib/createTitle';
+import chatgpt from 'lib/openai';
 import { isValidJSON, randomBetween } from 'lib/util/utils';
 import { Character, Scene } from './types';
 dotenv.config();
-if (!process.env.OPENAI_API_KEY)
-  throw new Error('OPENAI_API_KEY is not defined');
-const chatgpt = new ChatGPTAPI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
 
 let randomPlay = async (): Promise<Scene> => {
   console.log('Generating title...');
-  let title = await generateTitle();
-  console.log(title);
-  console.log('Generating characters...');
-  let characters = await generateCharacters(randomBetween(1, 8), title);
+  let titleRes = await generateTitle();
+  console.log('Title generated!');
+  const title = titleRes.title;
+  let amountOfCharacters = randomBetween(4, 8);
+  console.log(`Generating ${amountOfCharacters} characters...`);
+  let characters = await generateCharacters(
+    amountOfCharacters,
+    title,
+    titleRes.messageId,
+  );
   console.log('Characters generated!');
   console.log(characters);
   let charactersStringified = characters

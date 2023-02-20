@@ -1,9 +1,11 @@
+import { Voices } from 'lib/elevenlabs';
 import { GoogleVoice } from 'lib/speech';
 
 export interface Character {
   name: string;
   description: string;
-  voice: GoogleVoice;
+  // voice: GoogleVoice;
+  voice: Voices;
 }
 
 export interface Scene {

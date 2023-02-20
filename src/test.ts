@@ -1,27 +1,11 @@
-import { google } from '@google-cloud/text-to-speech/build/protos/protos';
-import * as fs from 'fs';
-
-let voices = JSON.parse(
-  fs.readFileSync('./voices.json', 'utf8'),
-) as google.cloud.texttospeech.v1beta1.IVoice[];
-
-let males = voices
-  .filter((voice) => {
-    return voice.ssmlGender === 'MALE';
-  })
-  .map((voice) => {
-    return voice.name;
-  })
-  .join(', ');
-
-let females = voices
-  .filter((voice) => {
-    return voice.ssmlGender === 'FEMALE';
-  })
-  .map((voice) => {
-    return voice.name;
-  })
-  .join(', ');
-
-console.log(males);
-console.log(females);
+import chatgpt from 'lib/openai';
+// import play from '../plays/1676852500160.json';
+import fs from 'fs';
+import { Character, Play, Scene } from 'lib/plays/types';
+import actPlay from 'tts';
+import generateSpeech from 'lib/elevenlabs';
+let playFs = fs.readFileSync('plays/1676852500160.json', 'utf8');
+let play = JSON.parse(playFs) as Scene;
+(async () => {
+  await actPlay(play.play, play.characters);
+})();
